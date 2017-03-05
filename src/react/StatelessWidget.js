@@ -10,4 +10,9 @@ const StatelessWidget = (props) => {
   );
 }
 
+StatelessWidget.propTypes = {
+  txt: React.PropTypes.string,
+  cat: React.PropTypes.number.isRequired
+}
+
 export default StatelessWidget
